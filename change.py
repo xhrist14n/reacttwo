@@ -6,8 +6,8 @@ with open(file_path, "r", encoding="utf-8") as file:
     content = file.read()
 
 # Replace href="/" with href="/reactone/"
-content = content.replace('href="/', 'href="/reactone/')
-content = content.replace('src="/', 'src="/reactone/')
+content = content.replace('href="/', 'href="/reacttwo/')
+content = content.replace('src="/', 'src="/reacttwo/')
 
 print(content)
 
