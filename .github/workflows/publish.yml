@@ -8,6 +8,7 @@ on:
       - src/**
       - public/**
       - package.json
+      - change.py
       - .github/workflows/publish.yml
 
 jobs:
