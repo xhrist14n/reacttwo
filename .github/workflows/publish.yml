@@ -50,7 +50,7 @@ jobs:
 
       - name: Push changes
         run: |
-          cat build/index.html
+          cat dist/index.html
 
           git config --global --add safe.directory $GITHUB_WORKSPACE
           git config --global user.email "xhrist14n@gmail.com"
